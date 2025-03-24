@@ -1,0 +1,35 @@
+MERN -> MongoDB, Express, React, and Node. js
+
+        Download Node.js and VS-Code
+        Give execution access 
+            -Run Powershell as Administrator
+            - Type ->
+                -Set-ExecutionPolicy
+                -Set-ExecuitonPolicy RemoteSigned -Scope CurrentUser
+Install Npm 
+-Go to VsCode terminal and Type -> npm init (IT is avaliabel through Node.js)
+
+Install Express
+-npm install express
+
+localhost:3000
+127.0.0.1:3000
+[::1]:3000
+To see the result of app.js you need to type node app.js in terminal
+
+Install nodemon 
+ npm install nodemon
+ Now, go to the package.json; bleow at script delete
+ "test": "echo \"Error: no test specified\" && exit 1" and Add 
+ "start" : "nodemon app.js"
+ If we use other nickname rather than start the command should be => npm run xyz (run is required)
+
+ As node app.js need to be typed every change
+ nodemon is used and called by: npm start
+ Now the change in file will be changed witho out calling the file in terminal again and again
+If the Node Version is over 18.1, nodemon is not required.
+node --watch app.js can be achieved
+
+
+
+Postman is for testing the apis for backend Developers
