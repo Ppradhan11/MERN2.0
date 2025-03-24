@@ -10,7 +10,7 @@ Install Npm
 -Go to VsCode terminal and Type -> npm init (IT is avaliabel through Node.js)
 
 Install Express
--npm install express
+-npm install express (This will create a node_modules folder: Here,the package of express is located inside it)
 
 localhost:3000
 127.0.0.1:3000
@@ -30,6 +30,8 @@ Install nodemon
 If the Node Version is over 18.1, nodemon is not required.
 node --watch app.js can be achieved
 
+Add the file in github
+Before adding it, add gitignore for node_modules because it is heavy file.
 
 
 Postman is for testing the apis for backend Developers
