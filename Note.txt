@@ -30,8 +30,11 @@ Install nodemon
 If the Node Version is over 18.1, nodemon is not required.
 node --watch app.js can be achieved
 
-Add the file in github
-Before adding it, add gitignore for node_modules because it is heavy file.
+Add the file in github. Before adding it, add gitignore for node_modules because it is heavy file.
 
+Install  Mongoose
+- npm install Mongoose
+
+Create a Cluster in Atlas Mongodb and add it to vscode. Also, make the access from all the devices by changing the IP
 
 Postman is for testing the apis for backend Developers
